@@ -17,7 +17,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
     final _myBox = Hive.openBox('myBox');
-    TodoDatabase db = TodoDatabase()
+    TodoDatabase db = TodoDatabase();
 
     final _controller = TextEditingController();
 
